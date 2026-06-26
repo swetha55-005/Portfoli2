@@ -10,6 +10,7 @@ import { Header } from './components/public/Header';
 import { Project } from './components/public/Project';
 import { About } from './components/public/About';
 import { Contact } from './components/public/Contact';
+import { NotFound } from './components/NotFound';
 
 
 
@@ -22,7 +23,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/About'  element={<About/>}/>
         <Route path='/Contact'  element={<Contact/>}/>
-        <Route path='/Project'  element={<Project/>}/>
+        <Route path='/Projects'  element={<Project/>}/>
+        <Route path='*' element={<NotFound />} />
 
 
 

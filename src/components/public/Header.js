@@ -17,7 +17,7 @@ export const Header = () => {
         <div className='flex flex-col font-medium w-full gap-5 mt-10'> 
         <a href='/' >Home</a>
         <a href='/About'>About</a>
-        <a href='/Projects'>Projects</a>
+        <a href='/Project'>Projects</a>
         <a href='/Contact'>Contact</a>
         </div>
         </div>
